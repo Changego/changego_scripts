@@ -1,5 +1,4 @@
 #!/bin/bash  
-# allcmd.sh host_file_list  'rm /home/nuaazdh/tmp.txt'
 date=`date "+%H:%M:%S"`
 RED='\033[31m'
 GRE='\033[32m'
@@ -10,11 +9,6 @@ file_name=$2
 cmd_str=$3                                           
 cwd=$(pwd)                                           
 cd $cwd                                         
-#user=samsadmin
-#user=root
-#user=jbossuser
-#user=webuser
-#user=redisuser
 THREAD=10
 SLEEP_TIME=2                                        
 serverlist_file="$cwd/$file_name"
